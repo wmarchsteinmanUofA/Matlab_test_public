@@ -15,6 +15,7 @@ for i = 1:size(Images,2)
     F1= [F1; F1NCRatio];
 end
 
+update_to_branch = 5;
 %Tried multithresh for the Foxo1 threshold but manually picking it at the
 %trough between the two peaks worked better
 %F1On = multithresh(F1);
