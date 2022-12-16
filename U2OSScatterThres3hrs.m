@@ -20,6 +20,7 @@ end
 %F1On = multithresh(F1);
 F1On = .53;
 p53On = -2.8;
+h = 0.1;
 
 
 %Display what the threshold is doing
